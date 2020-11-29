@@ -1,0 +1,20 @@
+{
+  "name": "Gaggia-PID-electron",
+  "version": "1.0.0",
+  "main": "build/main.js",
+  "repository": "https://github.com/nikarc/Gaggia-PID-electron.git",
+  "author": "Nick Arcuri <narcuri1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "npx tsc && electron ."
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "electron": "^11.0.3",
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.21.5",
+    "typescript": "^4.1.2"
+  }
+}
